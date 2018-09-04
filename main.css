@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: #960101;
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+/* Head image settings begin here */
+
+.headimage {
+    display: block;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+    width: 840px;
+}
+
+/* Welcome settings begin here! */ 
+
+.welcome-box {
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.welcome {
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 1px 1px #e2c314;
+}
+
+/* Main content and headline settings begin here! */
+
+.maincontent {
+    text-align: center;
+    width: 100%;
+}
+
+.maincontent__table {
+    background-color: #4c4a4a;
+    border-radius: 6px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    width: 600px;
+}
+
+.maincontent__list {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 2px 2px #000;
+}
+
+.maincontent__list li {
+    list-style-type: none;
+    margin: 16px;
+}
+
+.maincontent__link {
+    color: #960101;
+    text-decoration: none;
+    transition: all .5s ease-in;
+}
+
+.maincontent__link:hover {
+    color: #fff;
+}
+
+.text-container {
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+
+.headline {
+   font-size: 20px;
+   font-weight: 700;
+   position: relative;
+   text-shadow: 1px 1px #e2c314;
+   top: 12px;
+   width: 100%;
+}
+
+.construction {
+    height: 400px;
+    width: 600px;
+}
