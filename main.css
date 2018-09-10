@@ -3,6 +3,7 @@ body {
     color: #960101;
     font-family: helvetica;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
 }
 
@@ -14,7 +15,7 @@ body {
     margin: 0 auto;
     position: relative;
     top: 1px;
-    width: 100%;
+    width: 1200px;
 }
 
 /* Welcome settings begin here! */ 
@@ -29,6 +30,30 @@ body {
     font-size: 26px;
     font-weight: 700;
     text-shadow: 1px 1px #e2c314;
+}
+
+/* Warsong crest settings begin here! */
+
+.banner-container {
+    position: absolute;
+}
+
+.banner {
+    position: relative;
+    left: 60px;
+}
+
+.banner-b {
+    position: relative;
+    left: 1200px;
+}
+
+/* Music container settings begin here! */
+
+.music {
+    position: relative;
+    top: 240px;
+    right: -36px;
 }
 
 /* Main content and headline settings begin here! */
