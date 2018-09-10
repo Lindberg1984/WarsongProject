@@ -10,11 +10,11 @@ body {
 
 .headimage {
     display: block;
-    height: 400px;
+    height: 490px;
     margin: 0 auto;
     position: relative;
-    top: 16px;
-    width: 840px;
+    top: 1px;
+    width: 100%;
 }
 
 /* Welcome settings begin here! */ 
@@ -26,7 +26,7 @@ body {
 }
 
 .welcome {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     text-shadow: 1px 1px #e2c314;
 }
