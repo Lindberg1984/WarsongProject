@@ -1,4 +1,6 @@
 body {
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
     background-color: #000;
     color: #960101;
     font-family: helvetica;
