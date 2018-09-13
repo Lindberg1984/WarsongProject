@@ -23,9 +23,12 @@ body {
 /* Welcome settings begin here! */ 
 
 .welcome-box {
+    background-color: #000;
+    border-color: #910505;
+    border-style: double;
     position: relative;
     text-align: center;
-    top: 10px;
+    top: -56px;
 }
 
 .welcome {
@@ -105,7 +108,7 @@ body {
 }
 
 .headline {
-   font-size: 20px;
+   font-size: 26px;
    font-weight: 700;
    position: relative;
    text-shadow: 1px 1px #e2c314;
