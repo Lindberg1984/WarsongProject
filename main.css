@@ -1,7 +1,8 @@
 body {
-    background-image: url(images/background1.jpg);
-    background-repeat: no-repeat;
     background-color: #000;
+    background-image: url(images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     color: #960101;
     font-family: helvetica;
     margin: 0;
@@ -83,22 +84,29 @@ body {
     display: inline-block;
     font-size: 18px;
     font-weight: 700;
+    list-style-type: none;
     text-shadow: 2px 2px #000;
+    transition: all .2s ease-in-out;
 }
 
 .maincontent__list li {
+    margin: 18px;
+}
+
+.maincontent__list li:hover {
     list-style-type: none;
-    margin: 16px;
+    transform: scale(1.2);
 }
 
 .maincontent__link {
-    color: #960101;
+    color: #e2c314;
+    margin: 16px;
     text-decoration: none;
-    transition: all .5s ease-in;
 }
 
 .maincontent__link:hover {
-    color: #fff;
+    color: #960101;
+    margin: 16px;
 }
 
 .text-container {
