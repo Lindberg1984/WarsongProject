@@ -75,6 +75,7 @@ body {
     background-size: contain;
     border-radius: 6px;
     height: 350px;
+    left: 75px;
     margin: 0 auto;
     position: relative;
     top: 20px;
@@ -89,7 +90,7 @@ body {
     list-style-type: none;
     position: relative;
     text-shadow: 2px 2px #000;
-    top: 20px;
+    top: 22px;
     
 }
 
