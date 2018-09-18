@@ -1,0 +1,37 @@
+body {
+    background-color: #000;
+    background-image: url(img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #d6c80e;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.main__intro {
+    background-color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.description {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.description__intro {
+    background-image: url(img/scroll1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+}
