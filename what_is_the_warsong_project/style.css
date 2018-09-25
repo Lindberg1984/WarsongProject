@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #d6c80e;
+    font-family: helvetica;
     margin: 0;
     padding: 0;
 }
@@ -14,21 +15,50 @@ body {
 
 .main__intro {
     background-color: #000;
+    border-style: double;
+    border-color: #910505;
     font-size: 20px;
     font-weight: 700;
     margin: 0 auto;
+    position: relative;
+    top: 12px;
 }
+
+/* Warsong banners´ settings begin here */
+
+.banner-container {
+    position: absolute;
+}
+
+.banner {
+    position: relative;
+    left: 60px;
+}
+
+.banner-b {
+    position: relative;
+    left: 1292px;
+}
+
+/* Introduction settings begin here! */
 
 .description {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 603px;
     text-align: center;
 }
 
 .description__intro {
+    background-image: url(img/scroll3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: #910505;
+    border-style: double;
+    color: #fff;
     display: block;
     font-size: 18px;
     font-weight: 700;
     position: relative;
+    text-shadow: 2px 2px #000;
     top: 20px;
 }
