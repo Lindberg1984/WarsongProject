@@ -62,3 +62,55 @@ body {
     text-shadow: 2px 2px #000;
     top: 20px;
 }
+
+/* Navigation bar settings begin here! */
+
+.maincontent {
+    text-align: center;
+    width: 100%;
+}
+
+.maincontent__table {
+    background-image: url(img/scroll1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px;
+    height: 350px;
+    left: 75px;
+    margin: 0 auto;
+    position: relative;
+    top: 42px;
+    width: 600px;
+}
+
+.maincontent__list {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    left: -102px;
+    list-style-type: none;
+    position: relative;
+    text-shadow: 2px 2px #000;
+    top: 22px;
+}
+
+.maincontent__list li {
+    margin: 18px;
+}
+
+.maincontent__list li:hover {
+    list-style-type: none;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.maincontent__link {
+    color:  #ba8305;
+    margin: 16px;
+    text-decoration: none;
+}
+
+.maincontent__link:hover {
+    color: #960101;
+    margin: 16px;
+}
