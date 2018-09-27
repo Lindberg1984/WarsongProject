@@ -6,6 +6,7 @@ body {
     color: #d6c80e;
     font-family: helvetica;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
 }
 
