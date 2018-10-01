@@ -129,6 +129,8 @@ body {
    width: 100%;
 }
 
+/* Construction (status) settings begin here! */
+
 .construction {
     background-image: url(images/goblins.jpg);
     background-repeat: no-repeat;
