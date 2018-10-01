@@ -91,7 +91,6 @@ body {
     position: relative;
     text-shadow: 2px 2px #000;
     top: 22px;
-    
 }
 
 .maincontent__list li {
@@ -126,11 +125,16 @@ body {
    font-weight: 700;
    position: relative;
    text-shadow: 1px 1px #e2c314;
-   top: 12px;
+   top: -10px;
    width: 100%;
 }
 
 .construction {
+    background-image: url(images/goblins.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
     height: 400px;
+    margin: 0 auto;
     width: 600px;
 }
