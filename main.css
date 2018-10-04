@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
     position: relative;
     top: 1px;
-    width: 1200px;
+    width: 1000px;
 }
 
 /* Welcome settings begin here! */ 
@@ -125,7 +125,7 @@ body {
    font-weight: 700;
    position: relative;
    text-shadow: 1px 1px #e2c314;
-   top: -10px;
+   top: -18px;
    width: 100%;
 }
 
