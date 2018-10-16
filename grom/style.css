@@ -1,0 +1,109 @@
+body {
+    background-color: #000;
+    background-image: url(img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #820303;
+    font-family: helvetica;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+/* Welcome and banner settings begin here! */ 
+
+.top {
+    margin: 0 auto;
+}
+
+.top__grom {
+    background-image: url(img/grom1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 376px;
+    position: relative;
+    top: 6px;
+}
+
+.welcome {
+    background-color: #000;
+    border-color: #d62304;
+    border-style: double;
+    height: 24px;
+    position: relative;
+    text-align: center;
+    top: 2px;
+    width: 100%;
+}
+
+.welcome__banner {
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px #d6cf04;
+}
+
+.warsong {
+    position: absolute;
+}
+
+.warsong__banner {
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+
+.warsong__banner-b {
+    position: relative;
+    left: 1292px;
+    top: 30px;
+}
+
+/* Main content settings begin here! */ 
+
+.maincontent {
+    display: block;
+    text-align: center;
+}
+
+.maincontent__table {
+    background-image: url(img/scroll.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    left: 75px;
+    margin: 0 auto;
+    position: relative;
+    top: -22px;
+    width: 600px;
+}
+
+.maincontent__list {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    left: -102px;
+    list-style-type: none;
+    position: relative;
+    text-shadow: 2px 2px #000;
+    top: 43px;
+}
+
+.maincontent__list li:hover {
+    list-style-type: none;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.maincontent__list li {
+    margin: 18px;
+}
+
+.maincontent__link {
+    color: #ba8305;
+    margin: 16px;
+    text-decoration: none;
+}
+
+.maincontent__link:hover {
+    color: #960101;
+}
