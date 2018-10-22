@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-/* Welcome and banner settings begin here! */ 
+/* Welcome settings begin here! */ 
 
 .top {
     margin: 0 auto;
@@ -22,7 +22,8 @@ body {
     background-size: contain;
     height: 376px;
     position: relative;
-    top: 6px;
+    top: 9px;
+    margin-left: 586px;
 }
 
 .welcome {
@@ -35,6 +36,8 @@ body {
     top: 2px;
     width: 100%;
 }
+
+/* Banner settings begin here! */
 
 .welcome__banner {
     font-size: 20px;
@@ -55,6 +58,53 @@ body {
 .warsong__banner-b {
     position: relative;
     left: 1292px;
+    top: 30px;
+}
+
+
+/* Introduction and text settings begin here! */ 
+
+.text {
+    bottom: 52px;
+    position: relative;
+    text-align: center;
+}
+
+.text__header {
+    color: #d6cf04;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline wavy gold;
+    text-shadow: 2px 2px #000;
+}
+
+.text__main {
+    color: #d6cf04;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 600px;
+    text-shadow: 2px 2px #000;
+}
+
+.text__end {
+    color: #d6cf04;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    text-shadow: 2px 2px #000;
+    top: 18px;
+}
+
+.text__link {
+    color: #d6cf04;
+    font-weight: 700;
+    position: relative;
+    text-shadow: 2px 2px #000;
     top: 30px;
 }
 
@@ -106,4 +156,19 @@ body {
 
 .maincontent__link:hover {
     color: #960101;
+}
+
+/* Footer settings begin here! */ 
+
+.bottom {
+    background-color: #35c66d;
+    bottom: 0;
+    color: #d6cf04;
+    height: 20px;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    width: 100%;
 }
