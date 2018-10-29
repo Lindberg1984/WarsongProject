@@ -104,8 +104,13 @@ body {
     color: #d6cf04;
     font-weight: 700;
     position: relative;
+    text-decoration: none;
     text-shadow: 2px 2px #000;
     top: 30px;
+}
+
+.text__link:hover {
+    color: #820303;
 }
 
 /* Main content settings begin here! */ 
